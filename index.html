@@ -26,7 +26,7 @@
     <div id="header_container">
         <div class="header_content">
             <div class="ns_logo header_container-left">
-                <img src="images/nslogo.svg" alt="Ga naar de homepagina">
+                <a href="components.html"><img src="images/nslogo.svg" alt="Ga naar de homepagina"></a>
             </div>
 
             <ul>
@@ -396,7 +396,54 @@
     </div>
 </header>
 
+
     <main>
+
+            <section class="notification-storing fullwidth">
+                    <div class="container">
+                        <i class="la la-exclamation-triangle"></i>
+                        <a href="#">Leiden Centraal/Den Haag Centraal-Rotterdam Centraal, vrijdag 22 t/m zondag 24 november</a>
+                        <i class="la la-angle-right"></i>
+                    </div>
+                </div>
+            </section>
+
+            
+
+
+
+
+<section class="reisplanner fullwidth">
+    <div class="container planner">
+        <form action="">
+            <h1>Plan je reis</h1>
+
+            <div id="locatie_input">
+                <input type="text" name="van" id="van">
+                <button><i class="la la-exchange-alt"></i></button>
+                <input type="text" name="naar" id="naar">
+            </div>
+
+            <fieldset>
+                <legend>Selecteer vertrek of aankomst</legend>
+                <label for="vertrek">Vertrek</label>
+                <input type="radio" name="vertrek" id="vertrek">
+                <label for="vertrek">Aankomst</label>
+                <input type="radio" name="aankomst" id="aankomst">
+            </fieldset>
+
+            <input type="date" name="datum" id="datum">
+            <input type="time" name="time" id="time">
+
+            <button>Nu</button>
+            <button>Opties</button>
+
+            
+        </form>
+
+    </div>
+</section>
+
 
         <!--Planner-->
         <!--Banner(hero)-->
